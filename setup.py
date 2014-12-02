@@ -48,7 +48,7 @@ if __name__ == "__main__":
 			'keywords': 'snmp,twisted,manager,agent,protocol,oid,oidstore',
 			'long_description' : """SNMP Protocol for the Twisted Networking Framework
 
-TwistedSNMP is a set of SNMP protocol implementations
+txSNMP is a set of SNMP protocol implementations
 for Python's Twisted Matrix networking framework using
 the PySNMP project.  It provides the following:
 
@@ -70,7 +70,7 @@ Eventual goals of the system (the project is just beginning):
 		}
 	### Now the actual set up call
 	setup (
-		name = "TwistedSNMP",
+		name = "txSNMP",
 		version = versionString,
 		url = "http://twistedsnmp.sourceforge.net/",
 		description = "SNMP Protocol for the Twisted Networking Framework",
